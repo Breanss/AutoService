@@ -6,8 +6,6 @@ import com.example.autoservice.customer.domain.CustomerValidationResult;
 import com.example.autoservice.nip.NipRepository;
 import com.example.autoservice.nip.NipValidator;
 import com.example.autoservice.nip.domain.NipValidationResult;
-import com.example.autoservice.servicetype.ServiceTypeRepository;
-import com.example.autoservice.servicetype.domain.ServiceType;
 import com.example.autoservice.vehicle.VehicleRepository;
 import com.example.autoservice.vehicle.domain.Vehicle;
 import lombok.AllArgsConstructor;

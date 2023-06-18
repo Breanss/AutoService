@@ -52,11 +52,6 @@ public class CustomerValidator {
             return new CustomerValidationResult(false, CustomerValidationError.CONTAINS_ILLEGAL_CHARACTERS_MOBILE);
         }
 
-
-
-
-
-
         if (isNull(customerDto.getEmail())) {
             return new CustomerValidationResult(false, CustomerValidationError.NULL_VALUE_EMAIL);
         } else if (validateLengthEmail(customerDto.getEmail())) {

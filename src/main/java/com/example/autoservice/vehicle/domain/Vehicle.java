@@ -36,7 +36,7 @@ public class Vehicle {
     private VehicleType vehicleType;
 
     @ManyToOne(cascade = {CascadeType.MERGE})
-    @JoinColumn(name = "customer_id", nullable = true)
+    @JoinColumn(name = "customer_id")
     private Customer customer;
 
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
