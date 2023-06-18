@@ -1,0 +1,4 @@
+GET http://localhost:8080/autoservice/vehicles/vin/JH4DB7550RS000461
+Content-Type: application/json
+
+//Pobieranie Samochodu po VIN -> true (OK)

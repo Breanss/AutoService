@@ -1,0 +1,4 @@
+DELETE http://localhost:8080/autoservice/customers/delete/1
+Content-Type: application/json
+
+//Usuwanie Klienta -> true (OK)

@@ -1,0 +1,17 @@
+POST http://localhost:8080/autoservice/customers/add
+Content-Type: application/json
+
+//Dodanie Klienta
+{
+  "first_name": "Jan",
+  "last_name": "Kowalski",
+  "address": "Lublin 32",
+  "mobile": "123456789",
+  "email": "john@examplee.com",
+  "nip": {
+    "nip": "1070976623"
+  }
+}
+
+
+

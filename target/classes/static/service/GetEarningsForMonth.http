@@ -1,0 +1,4 @@
+GET http://localhost:8080/autoservice/services/earnings/month/04.2023
+Content-Type: application/json
+
+//Pobieranie kwoty zarobionej na dany miesiąc -> true (OK)

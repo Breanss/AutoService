@@ -1,0 +1,7 @@
+PUT http://localhost:8080/autoservice/vehicles/edit/7
+Content-Type: application/json
+
+{
+  "model": "E39",
+  "brand": "BMW"
+}

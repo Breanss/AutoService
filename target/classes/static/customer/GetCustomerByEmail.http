@@ -1,0 +1,4 @@
+GET http://localhost:8080/autoservice/customers/email/mnowicki@gmail.com
+Content-Type: application/json
+
+//Pobieranie Llienta po adresie Email -> true (OK)

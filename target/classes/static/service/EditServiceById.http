@@ -1,0 +1,11 @@
+PUT http://localhost:8080/autoservice/services/edit/30
+Content-Type: application/json
+
+//Edycja wszystkich danych Klienta -> true (OK)
+{
+  "price": 2.00,
+  "date": "2019-01-20"
+}
+
+
+
