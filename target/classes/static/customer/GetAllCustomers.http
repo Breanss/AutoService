@@ -1,0 +1,4 @@
+GET http://localhost:8080/autoservice/customers
+Content-Type: application/json
+
+//Pobieranie wszystkich Klientów -> true (OK)

@@ -1,0 +1,16 @@
+PUT http://localhost:8080/autoservice/customers/edit/2
+Content-Type: application/json
+
+//Edycja wszystkich danych Klienta -> true (OK)
+
+{
+  "first_name": "Janedited",
+  "last_name": "Kowalskiedited",
+  "address": "Lublinedited 33",
+  "mobile": "987654321",
+  "email": "jo2hn@edited.com",
+  "nip": {
+    "nip": "1164748420"
+  }
+}
+

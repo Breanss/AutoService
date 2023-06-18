@@ -1,0 +1,4 @@
+GET http://localhost:8080/autoservice/vehicles/id/6
+Content-Type: application/json
+
+//Pobieranie Samochodu po ID -> true (OK)

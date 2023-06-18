@@ -1,0 +1,4 @@
+GET http://localhost:8080/autoservice/services/earnings/year/2023
+Content-Type: application/json
+
+//Pobieranie kwoty zarobionej na dany rok -> true (OK)

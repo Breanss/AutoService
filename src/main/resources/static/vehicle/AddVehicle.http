@@ -1,0 +1,13 @@
+POST http://localhost:8080/autoservice/customer/vehicles/add
+Content-Type: application/json
+
+{
+  "brand": "Bmw",
+  "model": "E36",
+  "manufactured_year": 1999,
+  "vin": "YS3DF78K527013335",
+  "vehicleType": "TRACTOR",
+  "customer": {
+    "id": 5
+  }
+}

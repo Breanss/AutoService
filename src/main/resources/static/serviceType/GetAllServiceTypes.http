@@ -1,0 +1,4 @@
+GET http://localhost:8080/autoservice/servicetypes
+Content-Type: application/json
+
+//Pobieranie wszystkich ServiceTypes -> true (OK)

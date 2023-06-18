@@ -1,0 +1,4 @@
+GET http://localhost:8080/autoservice/vehicles/customer/id/2
+Content-Type: application/json
+
+//Pobieranie Samochodów Klienta
