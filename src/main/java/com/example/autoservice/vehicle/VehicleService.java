@@ -106,7 +106,6 @@ public class VehicleService {
         VehicleValidationResult vehicleValidationResult = vehicleValidator.validVehicle(vehicleDto);
 
         if (!vehicleValidationResult.isVehicleValid()) {
-            System.out.println("xd");
             return false;
         }
 

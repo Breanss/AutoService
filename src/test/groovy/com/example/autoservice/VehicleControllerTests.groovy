@@ -15,7 +15,6 @@ import spock.lang.Specification
 import spock.lang.Subject
 
 
-@WebMvcTest(VehicleController)
 class VehicleControllerTests extends Specification {
     @Subject
     VehicleController vehicleController
@@ -27,9 +26,6 @@ class VehicleControllerTests extends Specification {
 
     @Shared
     CustomerDto customerDto
-
-    @MockBean
-    MockMvc mockMvc
 
     @BeforeEach
     def setup() {

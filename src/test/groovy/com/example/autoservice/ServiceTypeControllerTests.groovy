@@ -11,7 +11,6 @@ import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Subject
 
-@WebMvcTest(ServiceTypeController)
 class ServiceTypeControllerTests extends Specification {
 
     @Subject
@@ -21,9 +20,6 @@ class ServiceTypeControllerTests extends Specification {
 
     @Shared
     ServiceType serviceType
-
-    @MockBean
-    MockMvc mockMvc
 
     @BeforeEach
     def setup() {

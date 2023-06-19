@@ -4,15 +4,11 @@ import com.example.autoservice.customer.CustomerController
 import com.example.autoservice.customer.CustomerService
 import com.example.autoservice.customer.domain.CustomerDto
 import org.junit.jupiter.api.BeforeEach
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
-import org.springframework.boot.test.mock.mockito.MockBean
-import org.springframework.test.web.servlet.MockMvc
 import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Subject
 
 
-@WebMvcTest(CustomerController)
 class CustomerControllerTests extends Specification {
     @Subject
     CustomerController customerController
@@ -21,9 +17,6 @@ class CustomerControllerTests extends Specification {
 
     @Shared
     CustomerDto customerDto
-
-    @MockBean
-    MockMvc mockMvc
 
     @BeforeEach
     def setup() {

@@ -8,16 +8,12 @@ import com.example.autoservice.servicetype.domain.ServiceType
 import com.example.autoservice.vehicle.domain.VehicleDto
 import com.example.autoservice.vehicle.domain.VehicleType
 import org.junit.jupiter.api.BeforeEach
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
-import org.springframework.boot.test.mock.mockito.MockBean
-import org.springframework.test.web.servlet.MockMvc
 import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Subject
 
 import java.text.SimpleDateFormat
 
-@WebMvcTest(ServiceController)
 class ServiceControllerTests extends Specification {
 
     @Subject
@@ -27,9 +23,6 @@ class ServiceControllerTests extends Specification {
 
     @Shared
     ServiceDto serviceDto
-
-    @MockBean
-    MockMvc mockMvc
 
     @BeforeEach
     def setup() {
